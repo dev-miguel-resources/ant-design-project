@@ -31,7 +31,8 @@ const ChartPie = () => {
     colorField: 'type',
     radius: 0.75,
     label: {
-      type: 'spider',
+      text: 'value', // for 2.x not 1.x
+      //type: 'spider', for 1.x not for 2.x
       labelHeight: 28,
       content: '{name}\n{percentage}',
     },
