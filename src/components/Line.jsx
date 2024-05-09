@@ -33,10 +33,11 @@ const ChartLine = () => {
     xField: 'month',
     yField: 'goals',
     label: {
-      position: 'middle',
+      position: 'middle', // perteneciente a versiones 1.x y 2.x
       style: {
         fill: '#FFFFFF',
         opacity: 0.6,
+        //textAlign: 'center', // Establece la alineación del texto en el centro
       },
     },
     xAxis: {
